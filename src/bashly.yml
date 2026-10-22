@@ -15,3 +15,7 @@ environment_variables:
     default: "1"
   - name: FRR_CACHE_DIR
     default: /tmp/folo-rss-reader-cli
+
+variables:
+  - name: folo_cli_version
+    value: latest

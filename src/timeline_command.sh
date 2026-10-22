@@ -1,1 +1,1 @@
-npx -y --silent --prefer-offline folocli@0.0.5 timeline "${other_args[@]}"
+npx -y --silent --prefer-offline "folocli@${folo_cli_version}" timeline "${other_args[@]}"
