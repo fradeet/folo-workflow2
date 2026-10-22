@@ -5,17 +5,7 @@ commands:
   - name: auth
     commands:
       - name: login
-  - name: entry
-    commands:
-      - name: mark-all-read
-      - name: mark-read
-  - name: subscription
-    commands:
-      - name: list
   - name: timeline
-  - name: unread
-    commands:
-      - name: list
 
 environment_variables:
   - name: FOLO_TOKEN
