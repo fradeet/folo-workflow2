@@ -1,0 +1,23 @@
+name: folo-rss-reader-cli
+version: 0.1.0
+
+commands:
+  - name: auth
+    commands:
+      - name: login
+  - name: entry
+    commands:
+      - name: mark-all-read
+      - name: mark-read
+  - name: subscription
+    commands:
+      - name: list
+  - name: timeline
+  - name: unread
+    commands:
+      - name: list
+
+environment_variables:
+  - name: FOLO_TOKEN
+  - name: NODE_USE_ENV_PROXY
+  - name: FRR_CACHE_DIR
