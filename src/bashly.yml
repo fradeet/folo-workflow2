@@ -1,11 +1,13 @@
 name: folo-rss-reader-cli
 version: 0.1.0
 
+
 commands:
   - name: auth
     commands:
       - name: login
   - name: timeline
+    catch_all: true
 
 environment_variables:
   - name: FOLO_TOKEN
