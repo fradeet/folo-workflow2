@@ -12,7 +12,7 @@ if [[ "$output_format" == "alfred" ]]; then
                     }
                 ]
             }')
-        echo "$alfred_error"
+        printf "%s\n" "$alfred_error"
         exit 1
     }
 
@@ -32,5 +32,5 @@ if [[ "$output_format" == "alfred" ]]; then
             ]
     }' <<<"$result")
 
-    echo "$alfred_script_filter_result"
+    printf "%s\n" "$alfred_script_filter_result"
 fi
