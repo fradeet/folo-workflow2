@@ -16,6 +16,7 @@ commands:
 environment_variables:
   - name: NODE_USE_ENV_PROXY
     default: "1"
+    private: true
   - name: FRR_CACHE_DIR
     default: /tmp/folo-rss-reader-cli
 
