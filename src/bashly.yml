@@ -19,6 +19,12 @@ environment_variables:
   - name: FRR_CACHE_DIR
     default: /tmp/folo-rss-reader-cli
 
+flags:
+  - long: --verbose
+    short: -v
+    help: Increase output verbosity (up to -vv)
+    repeatable: true
+
 variables:
   - name: folo_cli_version
     value: latest
