@@ -8,5 +8,5 @@ run_folo() {
     printf '%s\n' "${error_message:-}"
     return 1
   fi
-  jq -br '.data' <<< "$result"
+  jq -bcr '.data' <<< "$result"
 }
