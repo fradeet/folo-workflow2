@@ -13,6 +13,11 @@ commands:
         allowed: [alfred]
         required: true
 
+dependencies:
+  - curl
+  - jq
+  - npx
+
 environment_variables:
   - name: NODE_USE_ENV_PROXY
     default: "1"
