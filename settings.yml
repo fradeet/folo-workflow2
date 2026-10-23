@@ -26,10 +26,10 @@
 #
 ### Environment Overrides:
 #
-#   All options (except `env`) may be specified with an environment suffix in 
+#   All options (except `env`) may be specified with an environment suffix in
 #   order to override its value for a given environment.
 #
-#   For example, when defining `formatter_production: shfmt --minify`, then 
+#   For example, when defining `formatter_production: shfmt --minify`, then
 #   this will be the formatter used when generating the script with
 #   `bashly generate --env production`
 #
@@ -78,7 +78,7 @@ partials_extension: sh
 # strict: false      # Only exit on errors (set -e)
 # strict: ''         # Do not add any 'set' directive
 # strict: <string>   # Add any other custom 'set' directive
-strict: false
+strict: true
 
 # When true, the generated script will use tab indentation instead of spaces
 # (every 2 leading spaces will be converted to a tab character)
@@ -115,7 +115,7 @@ conjoined_flag_args: true
 # required arguments
 show_examples_on_error: false
 
-# When using private commands, flags, or environment variables, you may set 
+# When using private commands, flags, or environment variables, you may set
 # this option to a name of an environment variable that, if set, will reveal
 # all the private elements in the usage texts, as if they were public.
 private_reveal_key: ~
