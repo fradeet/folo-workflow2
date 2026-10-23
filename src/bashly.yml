@@ -14,7 +14,6 @@ commands:
         required: true
 
 environment_variables:
-  - name: FOLO_TOKEN
   - name: NODE_USE_ENV_PROXY
     default: "1"
   - name: FRR_CACHE_DIR
